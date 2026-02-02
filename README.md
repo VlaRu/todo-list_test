@@ -1,15 +1,16 @@
-# Project : TODO list
+# 📝Project : React + Redux Toolkit ToDo App
 
 ## Screen
 
-![screen](screen-project.png)
-![screen](dark.png)
+![ight theme](screen-project.png)
+![dark theme](dark.png)
+![Drag and Drop Demo](drag-drop.gif)
 
-## Deploy [link](https://todo-list-react-rtk.netlify.app/)
+## 🚀Deploy/live Demo [link](https://todo-list-react-rtk.netlify.app/)
 
 ## Source code [link](https://github.com/VlaRu/frontend-challenge/tree/feature/frontend-challenge)
 
-## Stack:
+## 🛠 Stack:
 - Vite
 - React
 - Redux/RTK
@@ -17,9 +18,9 @@
 - Eslint
 - Prettier
 
-## Realized
+## ✨Realized / Features
 
-- See hover states for all interactive elements on the page
+- Hover states for all interactive elements
 - Add new todos to the list
 - Mark todos as complete
 - Delete todos from the list
@@ -31,24 +32,33 @@
 ### additional
 - implement switching theme
 
-## Install
+## 📂Project Structure
+```text
+src/
+├── assets/ 
+├── components/      
+├── store/             
+└── styles/
+```
 
-#### follow to branch 'feature'
 
-``
+## Installation
+
+1. Clone this branch:
+```bash
+git clone -b feature https://github.com/VlaRu/todo-list_test.git
 cd frontend-challenge
-``
+```
+2. Install dependencies:
 
-install dependencies
-
-``
+```bash
 npm i
-``
-
-``
+```
+3. Run development server:
+```bash
 npm run dev
-``
-
-``
+```
+4.Build production version:
+```bash
 npm run build
-``
+```
